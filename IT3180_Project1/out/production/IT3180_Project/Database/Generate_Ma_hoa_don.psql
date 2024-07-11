@@ -1,0 +1,14 @@
+-- Tạo hàm sinh mã hóa đơn
+CREATE OR REPLACE FUNCTION generate_invoice_id()
+RETURNS TRIGGER AS $$
+BEGIN
+    NEW.Ma_hoa_don := 'HD' || TO_CHAR(NEW.Thoi_diem_dong, 'YYYYMMDD') || '-' || NEW.Ma_ho_khau;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Tạo trigger để kích hoạt hàm khi thêm mới dữ liệu vào bảng
+CREATE OR REPLACE TRIGGER trigger_generate_invoice_id
+BEFORE INSERT ON Bang_phi
+FOR EACH ROW
+EXECUTE PROCEDURE generate_invoice_id();

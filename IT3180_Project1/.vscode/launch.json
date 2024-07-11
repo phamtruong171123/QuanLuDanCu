@@ -1,0 +1,108 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "IStatistics",
+            "request": "launch",
+            "mainClass": "giaodien.phatthuong.IStatistics",
+            "projectName": "IT3180_Project1_937083d1"
+        },
+        {
+            "type": "java",
+            "name": "HoSo",
+            "request": "launch",
+            "mainClass": "QuanLyDanCu.src.giaodien.HoSo",
+            "projectName": "IT3180_Project1_51dde48a"
+        },
+        {
+            "type": "java",
+            "name": "HoSo",
+            "request": "launch",
+            "mainClass": "dangnhap.HoSo",
+            "projectName": "IT3180_Project1_51dde48a"
+        },
+        {
+            "type": "java",
+            "name": "IFund",
+            "request": "launch",
+            "mainClass": "giaodien.phatthuong.IFund",
+            "projectName": "IT3180_Project1_51dde48a"
+        },
+        {
+            "type": "java",
+            "name": "IStatistics",
+            "request": "launch",
+            "mainClass": "giaodien.phatthuong.IStatistics",
+            "projectName": "IT3180_Project1_51dde48a"
+        },
+        {
+            "type": "java",
+            "name": "IViewEvent",
+            "request": "launch",
+            "mainClass": "giaodien.phatthuong.IViewEvent",
+            "projectName": "IT3180_Project1_51dde48a"
+        },
+        {
+            "type": "java",
+            "name": "GiaoDienPhatThuong",
+            "request": "launch",
+            "mainClass": "giaodien.phatthuong.GiaoDienPhatThuong",
+            "projectName": "IT3180_Project1_51dde48a"
+        },
+        {
+            "type": "java",
+            "name": "ICreateEvent",
+            "request": "launch",
+            "mainClass": "giaodien.phatthuong.ICreateEvent",
+            "projectName": "IT3180_Project1_51dde48a"
+        },
+        {
+            "type": "java",
+            "name": "GiaoDienPhatThuong",
+            "request": "launch",
+            "mainClass": "giaodien.GiaoDienPhatThuong",
+            "projectName": "IT3180_Project1_51dde48a"
+        },
+        {
+            "type": "java",
+            "name": "GiaoDienChung",
+            "request": "launch",
+            "mainClass": "QuanLyDanCu.src.giaodien.GiaoDienChung",
+            "projectName": "IT3180_Project1_51dde48a"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "DangNhap",
+            "request": "launch",
+            "mainClass": "dangnhap.DangNhap",
+            "projectName": "IT3180_Project1_51dde48a"
+        },
+        {
+            "type": "java",
+            "name": "GiaoDienBanDau",
+            "request": "launch",
+            "mainClass": "giaodien.GiaoDienBanDau",
+            "projectName": "IT3180_Project1_51dde48a",
+            "noDebug": false,
+            "__progressId": "36391ec8-95f4-4f36-80b7-8f24d9f4f0e5",
+            "__origin": "internal"
+        },
+        {
+            "type": "java",
+            "name": "GiaoDienChung",
+            "request": "launch",
+            "mainClass": "giaodien.GiaoDienChung",
+            "projectName": "IT3180_Project1_51dde48a"
+        }
+    ]
+}

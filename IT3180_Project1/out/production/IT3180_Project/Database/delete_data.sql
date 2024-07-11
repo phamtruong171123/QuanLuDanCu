@@ -1,0 +1,12 @@
+Delete from ho_khau;
+Delete from nhan_khau;
+delete from can_bo;
+delete from can_cuoc_cong_dan;
+delete from chu_ho;
+delete from dang_nhap;
+delete from phan_thuong;
+delete from so_tam_tru;
+delete from tam_vang;
+delete from bang_phi;
+delete from phat_thuong;
+delete from phan_thuong;
